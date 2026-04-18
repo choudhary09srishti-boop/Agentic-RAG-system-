@@ -1,0 +1,16 @@
+query,expected_intent,predicted_intent,routing_correct,cosine_similarity,rouge1,rougeL,verdict
+What are the four risk categories defined in the EU AI Act?,FACTUAL,FACTUAL,True,0.5783,0.4638,0.3478,PASS
+What is the maximum penalty under the EU AI Act?,FACTUAL,FACTUAL,True,0.7371,0.8293,0.8293,PASS
+What FLOPs threshold defines a frontier AI model in the US?,FACTUAL,FACTUAL,True,0.3913,0.4167,0.4167,PASS
+Name one prohibited AI system under the EU AI Act.,FACTUAL,FACTUAL,True,0.5534,0.7407,0.4444,PASS
+When will the EU AI Act be fully enforced?,FACTUAL,FACTUAL,True,0.5194,0.6667,0.6667,PASS
+How does the EU AI Act differ from the US approach to AI regulation?,COMPLEX,COMPLEX,True,0.4867,0.2941,0.2353,PASS
+Compare penalty structures across the EU and US AI regulations.,COMPLEX,COMPLEX,True,0.4693,0.3099,0.2817,PASS
+How does China's approach to generative AI differ from the EU's approach?,COMPLEX,COMPLEX,True,0.3221,0.2781,0.1987,PASS
+What trade-offs exist between innovation and regulation in AI governance?,COMPLEX,COMPLEX,True,0.2227,0.2045,0.1136,FAIL
+What are the key similarities across global AI regulatory frameworks?,COMPLEX,COMPLEX,True,0.2005,0.2857,0.2143,FAIL
+What is India's AI regulation policy?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,1.0,1.0,1.0,PASS
+What is the carbon footprint of AI systems?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,1.0,1.0,1.0,PASS
+Which companies are most affected financially by the EU AI Act?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,1.0,1.0,1.0,PASS
+What is the recipe for pasta?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,1.0,1.0,1.0,PASS
+How does AI regulation impact stock market performance?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,1.0,1.0,1.0,PASS
